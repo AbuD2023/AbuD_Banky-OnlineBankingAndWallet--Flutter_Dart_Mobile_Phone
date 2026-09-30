@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../core/auth_provider.dart';
-import '../../models/wallet_model.dart';
 import '../../services/api_service.dart';
 
 /// شاشة إدارة المحافظ المالية متعددة العملات (Wallets Screen)
