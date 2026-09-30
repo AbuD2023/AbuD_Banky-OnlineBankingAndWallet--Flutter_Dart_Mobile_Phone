@@ -1,4 +1,4 @@
-# AbuD Banky Mobile | تطبيق المحفظة الرقمية
+# #AbuD2023 Banky Mobile | تطبيق المحفظة الرقمية
 
 **محفظة رقمية عربية للهواتف، مبنية باستخدام Flutter وDart.** تساعد المستخدم على متابعة محافظه متعددة العملات وإجراء التحويلات والمدفوعات ومراجعة المعاملات من واجهة عربية تدعم RTL.
 
@@ -118,7 +118,7 @@ lib/
 
 ## English
 
-**AbuD Banky Mobile** is an Arabic-first Flutter wallet client for Android and iOS. It provides multi-currency wallet views, phone-based transfers, POS payments and management, self-exchange, transaction history, KYC submission, privacy settings, and light/dark themes.
+**#AbuD2023 Banky Mobile** is an Arabic-first Flutter wallet client for Android and iOS. It provides multi-currency wallet views, phone-based transfers, POS payments and management, self-exchange, transaction history, KYC submission, privacy settings, and light/dark themes.
 
 This repository contains the mobile app only. It requires a reachable, compatible `Banky.API` backend, maintained separately in the [ASP.NET repository](https://github.com/AbuD2023/AbuD_Banky-OnlineBankingAndWallet--Razor-Pages-.NET-8-). Clone the app, start the API, configure `lib/core/api_constants.dart`, then run `flutter pub get` and `flutter run`.
 

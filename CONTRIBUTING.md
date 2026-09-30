@@ -1,6 +1,6 @@
-# Contributing to AbuD Banky Mobile
+# Contributing to #AbuD2023 Banky Mobile
 
-Thank you for contributing to the Banky Flutter application. This repository contains the mobile client; the ASP.NET Core API is maintained separately at [AbuD Banky ASP.NET](https://github.com/AbuD2023/AbuD_Banky-OnlineBankingAndWallet--Razor-Pages-.NET-8-).
+Thank you for contributing to the Banky Flutter application. This repository contains the mobile client; the ASP.NET Core API is maintained separately at [#AbuD2023 Banky ASP.NET](https://github.com/AbuD2023/AbuD_Banky-OnlineBankingAndWallet--Razor-Pages-.NET-8-).
 
 ## Development setup
 
