@@ -99,6 +99,17 @@ lib/
 
 عند تغيير مسارات API أو أشكال البيانات، يجب تنسيق التغيير بين المستودعين وتحديث العميل والخادم بما يحافظ على التوافق.
 
+## صور واجهات التطبيق
+
+لا يتضمن المستودع لقطات شاشة فعلية للواجهات حاليًا. التقط الصور من التطبيق بعد تشغيله على محاكي أو جهاز، وأخفِ الأسماء وأرقام الهواتف والأرصدة والرموز وأي بيانات شخصية. أنشئ `docs/screenshots/` وضع الصور فيها بأسماء واضحة مثل `wallet-home.png` و`transfer-review.png`، ثم أضفها إلى README بمسارات نسبية:
+
+```markdown
+![الشاشة الرئيسية للمحفظة](docs/screenshots/wallet-home.png)
+![مراجعة التحويل قبل التأكيد](docs/screenshots/transfer-review.png)
+```
+
+بعد ذلك ارفع الصور وREADME إلى نفس مستودع Flutter؛ ستظهر الصور تلقائيًا على GitHub. اختر صورًا واضحة بالحجم الأصلي للهاتف، ولا ترفع صورًا مولدة أو بيانات مستخدم حقيقية.
+
 ## الأمان والترخيص
 
 هذا التطبيق نموذج تعليمي/تطبيقي وليس تطبيقًا مصرفيًا معتمدًا لمعالجة أموال حقيقية. لا تستخدم بيانات حقيقية أو بيئة إنتاج قبل مراجعة أمان العميل والخادم، وضبط HTTPS وحماية الرموز والبيانات الشخصية واختبار تدفقات التحويل وKYC. راجع [LICENSE](LICENSE) و[CONTRIBUTING.md](CONTRIBUTING.md).
@@ -116,6 +127,8 @@ This repository contains the mobile app only. It requires a reachable, compatibl
 Suggested repository description: **Arabic-first Flutter mobile wallet for multi-currency balances, phone transfers, POS payments, KYC, and transaction history.**
 
 Suggested topics: `flutter`, `dart`, `digital-wallet`, `mobile-banking`, `fintech`, `arabic`, `rtl`, `android`, `ios`, `point-of-sale`.
+
+To apply these, open this repository on GitHub, select the **About** gear, enter the description, and add the topics above. Put the ASP.NET repository URL in the Website field. For the repository's Social Preview, open **Settings > General > Social preview** and upload a branded image (1280 x 640 px recommended). Add actual app screenshots under `docs/screenshots/` and embed them using the relative paths shown in the Arabic section above. Keep topics relevant to this Flutter client.
 
 ### Safety notice
 
